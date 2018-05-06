@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+pandas = "*"
+holoviews = "*"
+matplotlib = "*"
+plotly = "*"
+statsmodels = "*"
+fbprophet = "*"
+pandas-profiling = "*"
+scikit-learn = "*"
+colorlover = "*"
+tqdm = "*"
+ipywidgets = "*"
+hyperopt = "*"
+
+[dev-packages]
+ptpython = "*"
+"flake8" = "*"
+isort = "*"
+"autopep8" = "*"
+yapf = "*"
+cookiecutter = "*"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+note = "jupyter lab"
