@@ -13,6 +13,8 @@ pandas-profiling = "*"
 scikit-learn = "*"
 tqdm = "*"
 ipywidgets = "*"
+hyperopt = "*"
+networkx = "==1.11"
 
 [dev-packages]
 ptpython = "*"
